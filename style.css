@@ -1,0 +1,149 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: #000;
+}
+
+
+.container{
+	width: 1140px;
+	/*top right bottom left*/
+	margin: 25px auto 0 auto;
+	background-color: #000;
+}
+
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#logo {
+	padding: 100px;
+	text-align: center;
+	color: #fff;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	font-size: 55px;
+	border-bottom: 2px dotted #fff;
+}
+
+
+.footer {
+	width: 100%;
+	background-image: url("footer-background.jpg");
+	background-position: center;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	margin-top: 4%;
+	padding: 50px;
+	
+}
+
+
+.footer ul li a{
+	text-decoration: none;
+}
+
+
+.footer li{
+	list-style: none;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+
+.flex-container{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 75px;
+	
+
+
+}
+
+.flex-container div{
+	margin-right: 50px;
+
+}
+
+
+.flex-container h4 {
+	color: white;
+}
+
+
+.flex-container h5{
+	color: white;
+	font-style: oblique;
+}
+
+
+
+.genre h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+
+.genre p {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+
+.genre a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+.pricelist table{
+	border-collapse: collapse;
+	width: 300px;
+
+
+}
+
+
+
+.pricelist th{
+	color: white;
+	text-align: left;
+	font-weight: bold;
+
+}
+
+.pricelist td{
+	text-align: right;
+	color: white;
+}
+
+
+.pricelist table, th, td{
+	border-top: 1px dotted white;
+	padding-top: 10px;
+
+}
